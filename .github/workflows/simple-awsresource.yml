@@ -2,7 +2,7 @@ name: Creating simple ec2
 on:
   push: 
     branches: [main,master]
-  workflow_dispatch:
+  #workflow_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest
